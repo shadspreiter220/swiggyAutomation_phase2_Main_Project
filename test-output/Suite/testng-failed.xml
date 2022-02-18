@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="swiggy.listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="SwiggyTest(failed)">
+    <classes>
+      <class name="swiggy.test.tc.Swiggy_Tests_ExtentReports">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickOnSignIn"/>
+          <include name="setUp"/>
+          <include name="typePhone"/>
+          <include name="browserNavigation"/>
+          <include name="clickLogin"/>
+        </methods>
+      </class> <!-- swiggy.test.tc.Swiggy_Tests_ExtentReports -->
+    </classes>
+  </test> <!-- SwiggyTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
